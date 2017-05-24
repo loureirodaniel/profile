@@ -1,0 +1,102 @@
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #136E64;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.table-img{
+    max-width: 400px;
+    padding: 20px
+/*    text-align: center;*/
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 7px 0px rgba(0,0,0,0.1)
+  border: 2px;
+}
+/* Here goes your CSS */
+.img-circle {
+  border-radius: 50%;
+  max-width: 120px
+}
+.text-center{
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 20px;
+}
+
+#movies-table{
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.btn-red{
+  background-color: red;
+  background: orange;
+  font-weight: 900px;
+  color: black;
+  border: 0.5px solid rgba(33, 68, 72, 0.59);
+  padding: 10px;
+  border-radius: 4px;
+  display:  inline-block;
+  margin-top: 10px;
+  width: 200px;
+
+}
+
+.big_icon:hover{
+  font-size: 20px;
+}
